@@ -1,36 +1,57 @@
-## ***JUST. BE. ELITE.***
-#
-#
+<!-- eyephisher -->
 
-<p align="left">
-<a href="#"><img title="Made in Brazil" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/960px-Flag_of_Brazil.svg.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+<p align="center"><b>A beginners friendly.</b></p>
 
-## Installation :
+##
 
-* `apt update`
-* `apt install git -y`
-* `git clone git://github.com/joao2015-pbl/eyephisher.git`
-* `cd eyephisher`
-#### > SETUP : `bash setup`
-#### > SETUP [TERMUX] : `bash tmux_setup`
-#### > Run : `bash eyephisher`
+<h3><p align="center">Disclaimer</p></h3>
 
-## Single Command :
+<i>Any actions and or activities related to <b>eyephisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+
+<b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
+
+<b>This Tool is made for educational purposes only</b>. Do not attempt to violate the law with anything contained here. <b>If this is your intention, then Get the hell out of here</b>!
+
+It only demonstrates "how phishing works". <b>You shall not misuse the information to gain unauthorized access to someones social media</b>. However you may try out this at your own risk.</i>
+
+##
+
+### Features
+
+- Latest and updated login pages.
+- Beginners friendly
+- Multiple tunneling options
+  - Localhost
+  - Cloudflared
+  - LocalXpose
+- Mask URL support 
+- Docker support
+
+##
+
+### Installation
+
+- Just, Clone this repository -
+  ```
+  git clone --depth=1 https://github.com/joao2015-pbl/eyephisher.git
+  ```
+
+- Now go to cloned directory and run `eyephisher.sh` -
+  ```
+  $ cd eyephisher
+  $ bash eyephisher.sh
+  ```
+
+- On first launch, It'll install the dependencies and that's it. ***eyephisher*** is installed.
+
+##
+
+### Installation (Termux)
+You can easily install eyephisher in Termux by using tur-repo
 ```
-apt update ; apt install git -y ; git clone git://github.com/joao2015-pbl/eyephisher.git ; cd eyephisher ; bash setup ; bash eye phisher
+$ pkg install tur-repo
+$ pkg install eyephisher
+$ eyephisher
 ```
-
-### <<< If you copy , Then Give me The Credits >>>
-
-## Features :
-#### [+] Latest Login Pages !
-#### [+] 5 Port Forwarding Options !
-#### [+] Easy for Beginners !
-
-
-## Tunelling Options :
-#### > Localhost (127.0.0.1)
-#### > NGROK (https://ngrok.com)
-#### > SERVEO (https://serveo.net)
-#### > LOCALHOSTRUN (https://localhost.run)
-#### > LOCALXPOSE (https://localxpose.io/)
+### A Note : 
+***Termux discourages hacking*** .. So never discuss anything related to *eyephisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
